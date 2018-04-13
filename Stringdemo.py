@@ -47,11 +47,55 @@ print('sub_text.isalpha() returns', sub_text.isalpha())
 print('sub_text.isdigit() returns', sub_text.isdigit())
 
 
+# *************
 
+s1 = "Py" + 'thon'
+print(s1)
+s2 = 'Python is amazing'
+print(s2)
+s3 = r'Python\nis\namazing'
+print(s3)
+s4 = r'Python\tis\tamazing'
+print(s4)
 
+print(s2)
+rs1 = r'Python\nis\namazing'
+print(rs1)
+rs2 = r'Python\tis\tamazing'
+print(rs2)
+s = 'INfinity'
+print('check if \'s\' has only alphabets', s.isalpha())
+print('check if \'s\' has only digits', s.isdigit())
+print('determine the length of \'s\'', len(s))
+print('Convert all characters of \'s\' into upper case', s.upper())
+print('Convert all characters of \'s\' into lower case', s.lower())
+print('find how many \'i\' s are there in \'s\'', s.count('i'))
+print('find the index position of character \'t\' in s', s.index('t'))
 
+s = 'INfinity'
+print(s.isalpha())
+print(s.isdigit())
+print(len(s))
+print(s.upper())
+print(s.lower())
+print(s.count('i'))
+print(s.index('t'))
 
+s = 'INfinity'
+s1 = s.isalpha()
+s2 = s.isdigit()
+s3 = len(s)
+s4 = s.upper()
+s5 = s.lower()
+s6 = s.count('i')
+s7 = s.index('t')
 
-
+print(s1)
+print(s2)
+print(s3)
+print(s4)
+print(s5)
+print(s6)
+print(s7)
 
 
