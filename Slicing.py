@@ -57,3 +57,9 @@ print('a_list[a_slice] ->', a_list[a_slice])
 
 
 
+# *************
+
+k = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+print(k[::2])
+print(k[:4:2])
+print(k[1::2])
