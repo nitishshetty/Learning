@@ -40,6 +40,7 @@ print('beta.issuperset(epsilon) ->', beta.issuperset(epsilon))
 feta = frozenset(eta) # frozen sets are immutabel without updating methods
 print('feta ->', feta)
 
+
 zeta = set()
 print('zeta ->', zeta)
 zeta.add(3)
@@ -85,3 +86,43 @@ print('alpha_sym_diff ->', alpha_sym_diff)
 alpha_union = alpha.copy()
 alpha_union.update(beta)
 print('alpha_union ->', alpha_union)
+
+a = set(('10', '20', '30', '40'))
+b = set(('30', '60'))
+print(a)
+print(b)
+u = a.union(b)
+print(u)
+i = a.intersection(b)
+print(i)
+d = a.difference(b)
+print(d)
+sd = a.symmetric_difference(b)
+print(sd)
+
+a = set(('10', '20', '30', '40'))
+b = set(('30', '60'))
+print(a)
+print(b)
+u = a | b
+print(u)
+i = a & b
+print(i)
+d = a - b
+print(d)
+sd = a ^ b
+print(sd)
+
+
+test1 = ['10', '20', '30', '40']
+test2 = ['30', '60']
+a = set (test1)
+b = set(test2)
+u = a.union(b)
+print(u)
+i = a.intersection(b)
+print(i)
+d = a.difference(b)
+print(d)
+sd = a.symmetric_difference(b)
+print(sd)
