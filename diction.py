@@ -47,3 +47,13 @@ d2['d'] = 'docs'
 print('d2', d2)
 del(d2['v'])
 print('d2', d2)
+
+x = float.fromhex('A')
+y= 5
+
+print(min('Infinity'))
+info1 = 'Infinity'
+print(info1.find('a'))
+
+for x in (1,10,100):
+    print (x)
